@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {2}Project Statement}{3}
+\contentsline {section}{\numberline {3}Design Requirements}{3}
+\contentsline {section}{\numberline {4}Deliverables}{3}
+\contentsline {section}{\numberline {5}Functional Overview}{4}
+\contentsline {subsection}{\numberline {5.1}Main Control Board}{4}
+\contentsline {subsection}{\numberline {5.2}DLP Controller}{4}
+\contentsline {subsection}{\numberline {5.3}Optical System}{4}
+\contentsline {section}{\numberline {6}Detailed Hardware Design}{5}
+\contentsline {section}{\numberline {7}Concept Comparison}{5}
+\contentsline {section}{\numberline {8}Testing}{5}
+\contentsline {section}{\numberline {9}Recommendations}{5}
+\contentsline {section}{\numberline {10}Conclusion}{5}
+\contentsline {section}{Appendices}{5}
+\contentsline {section}{\numberline {A}Hello Appendix}{5}
