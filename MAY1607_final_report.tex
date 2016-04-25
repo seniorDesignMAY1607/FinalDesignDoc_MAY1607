@@ -6,7 +6,7 @@
 \usepackage{lmodern}
 \usepackage[toc]{appendix}
 \usepackage{graphicx}
-
+\renewcommand{\baselinestretch}{1.25}
 
 %Header packages
 \usepackage{fancyhdr}
@@ -160,7 +160,7 @@
 \pagebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
-Honeywell technicians assemble miniature mechanisms under a microscope. They face repetitive movements and eye strain while checking work instructions which are displayed on a nearby computer. A Kansas State design team outlined several solutions to this problem; a small tablet mounted next to the microscope, a virtual environment using technology similar to the Oculus Rift, and a heads up display inside the microscope’s field of view. We are exploring the last of these options. 
+Honeywell technicians assemble miniature mechanisms under a microscope. They face repetitive movements and eye strain while checking work instructions which are displayed on a nearby computer. A Kansas State design team outlined several solutions to this problem: a small tablet mounted next to the microscope, a virtual environment using technology similar to the Oculus Rift, and a heads up display inside the microscope’s field of view. We are exploring the last of these options. 
 
 
 
@@ -291,7 +291,7 @@ step 1: go home.
 Our design process began by brainstorming various methods of inserting a projection into the microscope system.  With our intentions focused only on providing the instructions directly to the user, we predicted three potential points of insertion into the microscope system.  These projection possibilities ranged from the area immediately in contact with the user - the eyepiece, to a portion of the optics tangential to the overall system – the camera port, and also the portion of the microscope already being used to capture images – the objective lens.
 
 We decided to pursue a strategy that utilized the objective lens as the insertion point of the projected image for our first design.  This was a result of the compactness of the eyepiece component, which had no tolerance for customization, and also that the default position of the camera port system allowed only for image capture.  Later it became apparent that the camera port could be changed to display an image to the eyepiece, which we took advantage of at a point farther along in the design process.
-Because the objective lens’ purpose is to capture light and display it to the user, pursuing this design allowed us to focus more on the projection system as a first priority.  We began by purchasing a commercial projector for testing of the various lens and component setups to be used in conjunction with an image source.  This was chosen as a way of getting immediate feedback on the methods of focusing the image as it traveled to the objective lens.  It is relevant to note that as a result of our project being almost completely hardware oriented, progressing through suggested concepts requires actual testing, and so many of our designs are focused on allowing us to get results on feasibility and quality in a very short time frame.
+	Because the objective lens’ purpose is to capture light and display it to the user, pursuing this design allowed us to focus more on the projection system as a first priority.  We began by purchasing a commercial projector for testing of the various lens and component setups to be used in conjunction with an image source.  This was chosen as a way of getting immediate feedback on the methods of focusing the image as it traveled to the objective lens.  It is relevant to note that as a result of our project being almost completely hardware oriented, progressing through suggested concepts requires actual testing, and so many of our designs are focused on allowing us to get results on feasibility and quality in a very short time frame.
 
 As part of experimenting with the various lens arrangements and several different beam splitters, it was necessary to disassemble and adapt the purchased pocket projector to better fit our needs.  We removed all of the casing and added a small circuit board attachment to optimize the brightness setting of the projector.  We were then able to find the correct beam splitter alignment in conjunction with the projector’s position so that the image would be viewed properly in the eyepiece.  This was very important because as the light travels through the microscope system, the image is reflected off of many surfaces and is displayed in a different orientation than was initially projected at the beginning of the process.
 
@@ -314,6 +314,17 @@ This was a good result for our first design, but there were several disadvantage
 	\label{OLO}
 \end{figure}
 
+
+
+
+
+\subsection{Camera Port Attachment}
+As the project progressed, we were able to spend more time learning about the internal optics used in the microscope and to get more comfortable adjusting various parts of the system.  At one point we experimented with manipulating the set of mirrors used by the camera port in such a way so that they reflected light in a direction of our choosing.  This allowed us to change that part of the microscope which was only initially used for capturing images so that it could actually input a light source to be viewed by an eyepiece.
+
+Once this development was made, we decided to pursue it as our second method of design for the project.  At this point we determined all of the necessary changes to be implemented for the new system.  This list included adjusting the camera port mirrors so that the image could be sent in a direction of our choosing, redesigning the camera port hardware itself to allow for easier input of images as well as to hold the project and other components being used.  We also knew that we would be able to change our beam splitter implementation completely, swapping in a lens array for focusing because we only needed to consider inserting the image as the camera port attachment does not obstruct the central optics used by the microscope.
+
+In order to enact these changes we employed a few programs in conjunction with the usual testing and experimenting that is the staple of this project.  One program which was vital to determining the optimal distances used for the lens array that focused our image was WinLens 3D.  This optical simulation program not only allowed us to find those distances to be used, but also to test the impact that various types of lenses and optical components had on our projected image.  As shown in \ref{LAD}, we went with a three lens system after completing the testing process with that program.  We utilized one biconcave and two biconvex lenses with achromatic lenses to correct for color aberration.
+
 %WinLens -- TODO: Change to better stuff
 \begin{figure}[h]
 	\centering
@@ -322,31 +333,29 @@ This was a good result for our first design, but there were several disadvantage
 	\label{LAD}
 \end{figure}
 
-\subsection{Camera Port Attachment}
-As the project progressed, we were able to spend more time learning about the internal optics used in the microscope and to get more comfortable adjusting various parts of the system.  At one point we experimented with manipulating the set of mirrors used by the camera port in such a way so that they reflected light in a direction of our choosing.  This allowed us to change that part of the microscope which was only initially used for capturing images so that it could actually input a light source to be viewed by an eyepiece.
-Once this development was made, we decided to pursue it as our second method of design for the project.  At this point we determined all of the necessary changes to be implemented for the new system.  This list included adjusting the camera port mirrors so that the image could be sent in a direction of our choosing, redesigning the camera port hardware itself to allow for easier input of images as well as to hold the project and other components being used.  We also knew that we would be able to change our beam splitter implementation completely, swapping in a lens array for focusing because we only needed to consider inserting the image as the camera port attachment does not obstruct the central optics used by the microscope.
-In order to enact these changes we employed a few programs in conjunction with the usual testing and experimenting that is the staple of this project.  One program which was vital to determining the optimal distances used for the lens array that focused our image was WinLens 3D.  This optical simulation program not only allowed us to find those distances to be used, but also to test the impact that various types of lenses and optical components had on our projected image.  As shown in \ref{LAD}, we went with a three lens system after completing the testing process with that program.  We utilized one biconcave and two biconvex lenses with achromatic lenses to correct for color aberration.
+Another useful software tool was the 3D modeling program, Solidworks, which was used to design two vital components for this optical integration method, shown in \ref{LHM} and \ref{CPM}.  The first part that we needed to construct was a custom mounting bracket which would attach to the camera port and hold the focusing lenses in perfect alignment.  The second component that we needed to build became apparent after a few iterations of testing with the stock camera port, which had enough hindrances in its design that we eventually decided to construct our own version.  This was made so that we could integrate smoothly into the microscope with our projector and lens array, and also to provide support for our circuit board assembly.  After some testing with these new components, we came up with a few changes to the initial design and made a second model with optimized dimensions.
 
-\begin{figure}[h]
+
+\begin{figure}[h!]
 	\centering
-	\includegraphics[width = 0.5\textwidth]{pics/lens_housing.jpg}
+	\includegraphics[width = 0.49\textwidth]{pics/lens_housing.jpg}
 	\caption[Lens Housing Model]{\centering Custom lens mounting bracket to support the lenses used for focusing the image.}
 	\label{LHM}
 \end{figure}
-
-\begin{figure}[h]
+\vfill
+\begin{figure}[h!]
 	\centering
-	\includegraphics[width = 0.5\textwidth]{pics/camera_port.jpg}
+	\includegraphics[width = 0.49\textwidth]{pics/camera_port.jpg}
 	\caption[Camera Port Model]{\centering Custom camera port design to support the projector and house the lens array}
 	\label{CPM}
 \end{figure}
 
 While we conducted tests for the physical parts just constructed, we also worked with the projection system to provide the best image through the optics housed in that hardware.  We made a small structural piece for the projector to provide support and attachment holes to lock it in place so that it remains aligned to the camera port. It was also necessary to design a custom PCB to remove all the unnecessary components not being used by the projector, which also helped to reduce the size and allow for easier integration on the camera port.  Part of this new PCB was a simple on/off switch which serves as the main control for our projection system and allows for easily displayed instructions once the system is attached.
-There are several benefits that this new design has over our initial concept, the first of which concerns the focus of the displayed image.  Previously, any time the operator adjusted the magnification of his view he would then have to refocus our image before being able to view his instructions.  With this new design, our projection enters into the eyepiece directly from the camera port, meaning it is independent to the focus of the microscope system.  Another advantage of our second concept is that all of our circuitry and optics are housed internally or held behind the microscope.  This keeps our attachment out of the workspace and enables for a much lower impact to the rest of the microscope system.
+There are several benefits that this new design has over our initial concept, the first of which concerns the focus of the displayed image.  Previously, any time the operator adjusted the magnification of his view he would then have to refocus our image before being able to view his instructions.  With this new design, our projection enters into the eyepiece directly from the camera port, meaning it is independent to the focus of the microscope system. Another advantage of our second concept is that all of our circuitry and optics are housed internally or held behind the microscope.  This keeps our attachment out of the workspace and enables for a much lower impact to the rest of the microscope system.
 
 
 \section{Other Considerations}
-
+	
 
 \end{appendices}
 \end{document}
