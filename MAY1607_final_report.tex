@@ -168,8 +168,6 @@ Honeywell technicians assemble miniature mechanisms under a microscope. They fac
 
 
 
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Project Statement}
 Optically inserting a virtual screen inside the microscope’s field of view allows the operator to seamlessly refer to work instructions during assembly. This setup could potentially improve workplace ergonomics and reduce manufacturing time while ensuring all components meet Honeywell’s high quality expectations. 
@@ -205,7 +203,7 @@ To meet all the requirements, our group designed a DLP projector with custom opt
 
 
 \subsection{Main Control Board}
-The main control board was designed to take an HDMI input and convert the data to 24 bit RGB format which is fed directly to the DLP3438 display controller. The on-board microcontroller, MSP430F2274, serves as both a user interface hub and system coordinator. The power-on switch and navigation buttons are connected GPIOs. These inputs are configured in software trigger certain events in the projector. For example, the left and right buttons can be used to change screen size, zoom, and cropping while the power switch simply triggers all the initialization code to run. The MCU communicates with both the ADV7611 and the DLPC3438 over I2C. All the power for the system is routed through the main board. The 5V input is stepped down to 3.3V and 1.8V using buck regulators. 
+The main control board was designed to take an HDMI input and convert the data to 24 bit RGB format which is fed directly to the DLP3438 display controller. The on-board microcontroller, MSP430F2274, serves as both a user interface hub and system coordinator. The power-on switch and navigation buttons are connected GPIOs. These inputs are configured in software trigger certain events in the projector. For example, the left and right buttons can be used to change screen size, zoom, and cropping while the power switch simply triggers all the initialization code to run. The MCU communicates with both the ADV7611 and the DLPC3438 over I\textsuperscript{2}C. All the power for the system is routed through the main board. The 5V input is stepped down to 3.3V and 1.8V using buck regulators. 
 
 \subsection{DLP Controller}
 The DLP controller board was part of an evaluation kit from Texas Instruments. The board consists of the DLPC3438 display controller and the DLPA2005 PMIC/ LED driver. These two integrated circuits work in tandem to control the DLP3010, digital micro-mirror device.
@@ -252,7 +250,13 @@ Finally, the main board acts as the power distribution center. The 5V system pow
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 \subsection{DLP Controller Board}
 
+\subsection{DMD Controller - DLPC3438}
 
+
+\subsection{LED Controller - DLPA2005}
+The DLPA2005 uses a feedback resistor on the cathode side of the LEDs to track current. An internal DAC is set to limit LED current, the output is compared to the voltage across the shunt resistor and the channel is pulsed off until the current comes back within range. The original value of 39m$\Omega$ was intended for current control between 1.5 and 2.1 amps per channel. This device was originally designed to produce 150 lumens and was not intended for direct line of sight out of the box. Replacing the resistor with 100$\Omega$ allowed us to test the LEDs down to a few milliamps. 
+
+The DLPC3438 is the direct 
 
 
 
@@ -307,7 +311,58 @@ Tell engineers to keep moving forward
 step 1: go home.
 
 \section{Alternative Designs}
+\subsection{Objective Lens Integration}
+Our design process began by brainstorming various methods of inserting a projection into the microscope system.  With our intentions focused only on providing the instructions directly to the user, we predicted three potential points of insertion into the microscope system.  These projection possibilities ranged from the area immediately in contact with the user - the eyepiece, to a portion of the optics tangential to the overall system – the camera port, and also the portion of the microscope already being used to capture images – the objective lens.
 
+We decided to pursue a strategy that utilized the objective lens as the insertion point of the projected image for our first design.  This was a result of the compactness of the eyepiece component, which had no tolerance for customization, and also that the default position of the camera port system allowed only for image capture.  Later it became apparent that the camera port could be changed to display an image to the eyepiece, which we took advantage of at a point farther along in the design process.
+Because the objective lens’ purpose is to capture light and display it to the user, pursuing this design allowed us to focus more on the projection system as a first priority.  We began by purchasing a commercial projector for testing of the various lens and component setups to be used in conjunction with an image source.  This was chosen as a way of getting immediate feedback on the methods of focusing the image as it traveled to the objective lens.  It is relevant to note that as a result of our project being almost completely hardware oriented, progressing through suggested concepts requires actual testing, and so many of our designs are focused on allowing us to get results on feasibility and quality in a very short time frame.
+
+As part of experimenting with the various lens arrangements and several different beam splitters, it was necessary to disassemble and adapt the purchased pocket projector to better fit our needs.  We removed all of the casing and added a small circuit board attachment to optimize the brightness setting of the projector.  We were then able to find the correct beam splitter alignment in conjunction with the projector’s position so that the image would be viewed properly in the eyepiece.  This was very important because as the light travels through the microscope system, the image is reflected off of many surfaces and is displayed in a different orientation than was initially projected at the beginning of the process.
+
+The final part of our design required us to build a physical structure to not only hold each of the components in their particular positions, but also to attach them securely to the microscope itself.  The resulting model is shown in \ref{OLS}, where the beam splitter is placed just below the objective lens with the projector and its controlling circuitry held to the side.  The projector and beam splitter are placed at specific angles so that the image is reflected directly into the objective lens, but while the power is off the beam splitter allows for the view below the system to enter into the lens unobstructed.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width = 0.75\textwidth]{pics/objective_lens_setup.jpg}
+	\caption[Objective Lens Setup]{\centering Design using modified commercial projector underneath the objective lens.}
+	\label{OLS}
+\end{figure}
+
+
+This was a good result for our first design, but there were several disadvantages that we wanted to optimize as our project developed.  The main issue with the objective lens integration setup was that the angle of reflection required the beam splitter and projector to be placed in the user’s workspace.  We built our model in such a way so that the components were held off to the side, but this design still posed a considerable obstruction to the workstation.  Another topic of concern was that the distance between the projector and beam splitter needed to be adjusted each time the zoom of the microscope was changed.  This is because the focal point of the projection system needed to be changed in accordance to the magnification being viewed by the user.  Finally, the projected image presented a double image when viewed (shown in \ref{OLO}), which was a result of the beam splitter having two reflective surfaces.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width = 0.75\textwidth]{pics/objective_lens_output.jpg}
+	\caption[Objective Lens Output]{\centering Image produced by the objective lens design as seen through eyepiece.}
+	\label{OLO}
+\end{figure}
+
+%WinLens -- TODO: Change to better stuff
+\begin{figure}[h]
+	\centering
+	\includegraphics[width = 0.75\textwidth]{pics/lens_array.jpg}
+	\caption[Lens Array Diagram]{\centering Lens array schematic with dimensions optimized by WinLens 3D software.}
+	\label{LAD}
+\end{figure}
+
+\subsection{Camera Port Attachment}
+As the project progressed, we were able to spend more time learning about the internal optics used in the microscope and to get more comfortable adjusting various parts of the system.  At one point we experimented with manipulating the set of mirrors used by the camera port in such a way so that they reflected light in a direction of our choosing.  This allowed us to change that part of the microscope which was only initially used for capturing images so that it could actually input a light source to be viewed by an eyepiece.
+Once this development was made, we decided to pursue it as our second method of design for the project.  At this point we determined all of the necessary changes to be implemented for the new system.  This list included adjusting the camera port mirrors so that the image could be sent in a direction of our choosing, redesigning the camera port hardware itself to allow for easier input of images as well as to hold the project and other components being used.  We also knew that we would be able to change our beam splitter implementation completely, swapping in a lens array for focusing because we only needed to consider inserting the image as the camera port attachment does not obstruct the central optics used by the microscope.
+In order to enact these changes we employed a few programs in conjunction with the usual testing and experimenting that is the staple of this project.  One program which was vital to determining the optimal distances used for the lens array that focused our image was WinLens 3D.  This optical simulation program not only allowed us to find those distances to be used, but also to test the impact that various types of lenses and optical components had on our projected image.  As shown in \ref{LAD}, we went with a three lens system after completing the testing process with that program.  We utilized one biconcave and two biconvex lenses with achromatic lenses to correct for color aberration.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width = 0.5\textwidth]{pics/lens_housing.jpg}
+	\caption[Lens Housing Model]{\centering Custom lens mounting bracket to support the lenses used for focusing the image.}
+	\label{LHM}
+\end{figure}
+
+\begin{figure}[h]
+	\includegraphics[width = 0.5\textwidth]{pics/camera_port.jpg}
+	\caption[Camera Port Model](Custom camera port design to support the projector and house the lens array)
+	\label{CPM}
+\end{figure}
 
 
 \section{Other Considerations}
