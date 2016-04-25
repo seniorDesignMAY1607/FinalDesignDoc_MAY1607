@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.1)  24 APR 2016 21:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.1)  24 APR 2016 22:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -772,7 +772,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./MAY1607_final_report.to
-c
+c)
+\tf@toc=\write4
+\openout4 = `MAY1607_final_report.toc'.
+
+
+(./MAY1607_final_report.lof
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -780,10 +785,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [1])
-\tf@toc=\write4
-\openout4 = `MAY1607_final_report.toc'.
-
- (./MAY1607_final_report.lof)
 \tf@lof=\write5
 \openout5 = `MAY1607_final_report.lof'.
 
@@ -795,67 +796,82 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 174.
-[3] <pics/seniorDesign_blockDiagram.png, id=22, 522.753pt x 178.0251pt>
+ [3]
+<pics/seniorDesign_blockDiagram.png, id=22, 522.753pt x 178.0251pt>
 File: pics/seniorDesign_blockDiagram.png Graphic file (type png)
 
 <use pics/seniorDesign_blockDiagram.png>
 Package pdftex.def Info: pics/seniorDesign_blockDiagram.png used on input line 
 195.
 (pdftex.def)             Requested size: 390.0pt x 132.81491pt.
- [4 <./pics/seniorDesign_blockDiagram.png>] [5] [6] [7] [8] [9] [10]
-<pics/objective_lens_setup.jpg, id=50, 252.945pt x 91.6515pt>
+ [4 <./pics/seniorDesign_blockDiagram.png>] [5] [6] [7] [8] [9]
+<pics/objective_lens_setup.jpg, id=47, 252.945pt x 91.6515pt>
 File: pics/objective_lens_setup.jpg Graphic file (type jpg)
 
 <use pics/objective_lens_setup.jpg>
-Package pdftex.def Info: pics/objective_lens_setup.jpg used on input line 302.
+Package pdftex.def Info: pics/objective_lens_setup.jpg used on input line 338.
 (pdftex.def)             Requested size: 292.5pt x 105.98576pt.
- [11 <./pics/objective_lens_setup.jpg>]
-<pics/objective_lens_output.jpg, id=54, 288.1164pt x 235.1184pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10] <pics/objective_lens_output.jpg, id=51, 288.1164pt x 235.1184pt>
 File: pics/objective_lens_output.jpg Graphic file (type jpg)
 
 <use pics/objective_lens_output.jpg>
-Package pdftex.def Info: pics/objective_lens_output.jpg used on input line 312.
+Package pdftex.def Info: pics/objective_lens_output.jpg used on input line 348.
 
 (pdftex.def)             Requested size: 292.5pt x 238.71259pt.
- [12 <./pics/objective_lens_output.jpg>]
-<pics/lens_array.jpg, id=59, 374.25536pt x 185.83714pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11 <./pics/objective_lens_setup.jpg>]
+<pics/lens_array.jpg, id=55, 374.25536pt x 185.83714pt>
 File: pics/lens_array.jpg Graphic file (type jpg)
 
 <use pics/lens_array.jpg>
-Package pdftex.def Info: pics/lens_array.jpg used on input line 331.
+Package pdftex.def Info: pics/lens_array.jpg used on input line 367.
 (pdftex.def)             Requested size: 292.5pt x 145.24161pt.
- [13 <./pics/lens_array.jpg>]
-<pics/lens_housing.jpg, id=63, 302.0886pt x 260.6538pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12 <./pics/objective_lens_output.jpg>]
+<pics/lens_housing.jpg, id=60, 302.0886pt x 260.6538pt>
 File: pics/lens_housing.jpg Graphic file (type jpg)
 
 <use pics/lens_housing.jpg>
-Package pdftex.def Info: pics/lens_housing.jpg used on input line 341.
+Package pdftex.def Info: pics/lens_housing.jpg used on input line 377.
 (pdftex.def)             Requested size: 191.10214pt x 164.89285pt.
 
-<pics/camera_port.jpg, id=64, 529.22719pt x 414.79968pt>
+<pics/camera_port.jpg, id=61, 529.22719pt x 414.79968pt>
 File: pics/camera_port.jpg Graphic file (type jpg)
 
 <use pics/camera_port.jpg>
-Package pdftex.def Info: pics/camera_port.jpg used on input line 348.
+Package pdftex.def Info: pics/camera_port.jpg used on input line 384.
 (pdftex.def)             Requested size: 191.10214pt x 149.78348pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[14 <./pics/lens_housing.jpg>] [15 <./pics/camera_port.jpg>]
-(./MAY1607_final_report.aux)
+[13 <./pics/lens_array.jpg> <./pics/lens_housing.jpg>] [14 <./pics/camera_port.
+jpg>] (./MAY1607_final_report.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 11550 strings out of 493304
- 208021 string characters out of 6139872
- 341347 words of memory out of 5000000
- 14721 multiletter control sequences out of 15000+600000
+ 11552 strings out of 493304
+ 208073 string characters out of 6139872
+ 342347 words of memory out of 5000000
+ 14723 multiletter control sequences out of 15000+600000
  32396 words of font info for 38 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 56i,12n,55p,960b,606s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,12n,55p,967b,606s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/s
 hare/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/typ
@@ -864,10 +880,10 @@ r/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/pub
 lic/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/t
 exmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/palatino/uplb8a.pfb>
-Output written on MAY1607_final_report.pdf (16 pages, 401566 bytes).
+Output written on MAY1607_final_report.pdf (15 pages, 401865 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 96 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

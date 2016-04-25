@@ -6,21 +6,21 @@
 \contentsline {subsection}{\numberline {5.1}Main Control Board}{4}
 \contentsline {subsection}{\numberline {5.2}DLP Controller}{5}
 \contentsline {subsection}{\numberline {5.3}Optical System}{5}
-\contentsline {section}{\numberline {6}Detailed Hardware Design}{6}
-\contentsline {subsection}{\numberline {6.1}Main Control Board}{6}
-\contentsline {subsubsection}{\numberline {6.1.1}HDMI Receiver - ADV7611}{6}
-\contentsline {subsubsection}{\numberline {6.1.2}Microcontroller - MSP430F2274}{7}
-\contentsline {subsubsection}{\numberline {6.1.3}Power}{7}
-\contentsline {subsection}{\numberline {6.2}DLP Controller Board}{7}
-\contentsline {subsection}{\numberline {6.3}DMD Controller - DLPC3438}{7}
-\contentsline {subsection}{\numberline {6.4}LED Controller - DLPA2005}{7}
-\contentsline {section}{\numberline {7}Testing}{8}
-\contentsline {subsection}{\numberline {7.1}Objective Lens Integration}{8}
-\contentsline {subsection}{\numberline {7.2}Camera Port Integration}{8}
-\contentsline {section}{\numberline {8}Conclusion}{9}
-\contentsline {section}{Appendices}{10}
-\contentsline {section}{\numberline {A}Operation Manual}{10}
-\contentsline {section}{\numberline {B}Alternative Designs}{10}
-\contentsline {subsection}{\numberline {B.1}Objective Lens Integration}{10}
-\contentsline {subsection}{\numberline {B.2}Camera Port Attachment}{12}
-\contentsline {section}{\numberline {C}Other Considerations}{15}
+\contentsline {section}{\numberline {6}Detailed Hardware Design}{5}
+\contentsline {subsection}{\numberline {6.1}Main Control Board}{5}
+\contentsline {subsubsection}{\numberline {6.1.1}HDMI Receiver - ADV7611}{5}
+\contentsline {subsubsection}{\numberline {6.1.2}Microcontroller - MSP430F2274}{6}
+\contentsline {subsubsection}{\numberline {6.1.3}Power}{6}
+\contentsline {subsection}{\numberline {6.2}DLP Controller Board}{6}
+\contentsline {subsection}{\numberline {6.3}DMD Controller - DLPC3438}{6}
+\contentsline {subsection}{\numberline {6.4}LED Controller - DLPA2005}{6}
+\contentsline {section}{\numberline {7}Testing}{7}
+\contentsline {subsection}{\numberline {7.1}Objective Lens Integration}{7}
+\contentsline {subsection}{\numberline {7.2}Camera Port Integration}{7}
+\contentsline {section}{\numberline {8}Conclusion}{8}
+\contentsline {section}{Appendices}{9}
+\contentsline {section}{\numberline {A}Operation Manual}{9}
+\contentsline {section}{\numberline {B}Alternative Designs}{9}
+\contentsline {subsection}{\numberline {B.1}Objective Lens Integration}{9}
+\contentsline {subsection}{\numberline {B.2}Camera Port Attachment}{11}
+\contentsline {section}{\numberline {C}Other Considerations}{14}
