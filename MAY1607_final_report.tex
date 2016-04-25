@@ -6,7 +6,10 @@
 \usepackage{lmodern}
 \usepackage[toc]{appendix}
 \usepackage{graphicx}
-\renewcommand{\baselinestretch}{1.05}
+\renewcommand{\baselinestretch}{1}
+\usepackage[final]{pdfpages}
+
+
 
 %Header packages
 \usepackage{fancyhdr}
@@ -219,18 +222,6 @@ The ADV7611 receives HDMI signals from the input source, converts the data forma
 
 The image data is transmitted over four differential pair wires, three for data and one for clock, at 60 frames per second for 1080p displays. This corresponds to a data rate of 3.4Gbps. Routing high speed signals on a circuit board requires special attention. The propagation delay of the signal is directly proportional to the dielectric of fiberglass and length of trace. This becomes incredibly crucial for differential pairs as a mismatch in timing can cause excess power draw on the lines or even corrupt data. 
 
-%%TODO: Fix spacinf!!!!!!!
-\begin{equation}
-	V_{signal}  = \frac{ 3 \times 10^{8} }{\sqrt{\epsilon_r}}  \mathrm{ , where }\epsilon_r = 4.6 \mathrm{for FR4 PCB material.}  
-\end{equation}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Add equation for propagation delay
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%Insert tolerance for trace matching
-%Schematic
-
 The ADV7611 converts the video into 24 bit RGB format. This parallel interface uses 8 bits per color per pixel. Each pixel is clocked in like a typewriter, each pixel placed to the right of the previous. At the end of each line, the HSYNC line is pulsed, notifying the receiver to start the next line. The last row of pixels is clocked in and followed by a pulse on the VSYNC line. The receiver sets up for the next frame in the same manner as before, starting in the corner and clocking across.
 
 
@@ -242,22 +233,39 @@ The on-board MSP430F2274 acts as the main coordinator for the system. The DLP co
 \subsubsection{Power}
 Finally, the main board acts as the power distribution center. The 5V system power is converted to 1.8V and 3.3V using two switching regulators. All three control voltages are necessary for normal operation. When power is first applied, the system waits for the 5V and 3.3V power to stabilize before turning on the 1.8V supply. This power-up sequence is necessary for a clean program start and ensures none of the components are damaged. 
 %%% Add schematic
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width = \textwidth]{pics/powerReg.png}
+	\caption[Power Regulator Schematic]{\centering The 3.3V and 1.8V voltage regulator circuit.}
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 \subsection{DLP Controller Board}
 
-\subsection{DMD Controller - DLPC3438}
+\subsubsection{DMD Controller - DLPC3438}
+The DLPC3438 directly controls the DMD and the LED driver. The control chip only takes in 24 bit RGB data, but can also render its own splash screens and test patterns. The MSP430 can call specific operations over I\textsuperscript{2}C such as, image cropping, changing brightness, image angle, and many more. 
 
-
-\subsection{LED Controller - DLPA2005}
+\subsubsection{LED Controller - DLPA2005}
 The DLPA2005 uses a feedback resistor on the cathode side of the LEDs to track current. An internal DAC is set to limit LED current, the output is compared to the voltage across the shunt resistor and the channel is pulsed off until the current comes back within range. The original value of 39m$\Omega$ was intended for current control between 1.5 and 2.1 amps per channel. This device was originally designed to produce 150 lumens and was not intended for direct line of sight out of the box. Replacing the original with a 100$\Omega$ resistor allowed us to test the LEDs down to a few milliamps. 
-\\
-The DLPC3438 is the direct 
 
+\subsection{Optical Design}
+\subsubsection{Modified Optical Engine}
+Projector optical engines are not designed to work while facing the display. Removing the projection optics reveals the small DMD hidden inside. The small rectangle glows brilliantly as the thousands of tiny mirrors silently toggle back and forth. DLP systems typically use a white bulb with a color wheel or colored LEDs to generate the full color spectrum. 
 
+\subsubsection{Collimating Optics}
+The lens system was designed to collimate the image projected directly from the DMD. Our system uses three different types of lens to tweak various aspects of our system.
+\paragraph{Bi-Concave}
+	The Bi-Convex lens has a focal length of -30mm and is placed approximately 34.5mm away from the DMD. This produces a smaller virtual image within range of the second lens.
+\paragraph{Bi-Convex}
+This intermediate lens magnifies the virtual image and prepares it for the final collimation. This lens makes it easy to fine tune the balance between longer focal length and apparent image size.
+\paragraph{Achromatic Bi-Convex}
+The final lens consists of two different materials glued together. The difference in the index of refractions corrects for color aberrations in the image. The final image is much clearer because the colors all collimate together.
 
-!!!!!!!!Need to finish the detailed design!!!!!!!
-
+\begin{figure}[h!]
+	\centering	
+	\includegraphics[width = \textwidth]{pics/LENSdRAWING.png}
+	\caption[Optics Diagram]{The optical schematic}
+\end{figure}
 
 \section{Testing}
 \subsection{Objective Lens Integration}
@@ -391,8 +399,8 @@ While we conducted tests for the physical parts just constructed, we also worked
 There are several benefits that this new design has over our initial concept, the first of which concerns the focus of the displayed image.  Previously, any time the operator adjusted the magnification of his view he would then have to refocus our image before being able to view his instructions.  With this new design, our projection enters into the eyepiece directly from the camera port, meaning it is independent to the focus of the microscope system. Another advantage of our second concept is that all of our circuitry and optics are housed internally or held behind the microscope.  This keeps our attachment out of the workspace and enables for a much lower impact to the rest of the microscope system.
 
 
-\section{Other Considerations}
-	
+\section{Schemtic Files}
+\includepdf[pages=-]{pics/HDMI2RGB.pdf}
 
 \end{appendices}
 \end{document}

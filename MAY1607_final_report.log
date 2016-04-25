@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.1)  24 APR 2016 22:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.1)  24 APR 2016 23:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -381,79 +381,34 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip46
-\f@ncyO@elh=\skip47
-\f@ncyO@erh=\skip48
-\f@ncyO@olh=\skip49
-\f@ncyO@orh=\skip50
-\f@ncyO@elf=\skip51
-\f@ncyO@erf=\skip52
-\f@ncyO@olf=\skip53
-\f@ncyO@orf=\skip54
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks22
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count103
+\calc@Bcount=\count104
+\calc@Adimen=\dimen114
+\calc@Bdimen=\dimen115
+\calc@Askip=\skip46
+\calc@Bskip=\skip47
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count105
+\calc@Cskip=\skip48
 )
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box28
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
 
-(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
-Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-))
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
-Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
-))
-Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 
-(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
-
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks23
-\pgfkeys@temptoks=\toks24
-
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks25
-))
-\pgf@x=\dimen114
-\pgf@y=\dimen115
-\pgf@xa=\dimen116
-\pgf@ya=\dimen117
-\pgf@xb=\dimen118
-\pgf@yb=\dimen119
-\pgf@xc=\dimen120
-\pgf@yc=\dimen121
-\w@pgf@writea=\write3
-\r@pgf@reada=\read1
-\c@pgf@counta=\count103
-\c@pgf@countb=\count104
-\c@pgf@countc=\count105
-\c@pgf@countd=\count106
-
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
-)
-Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
-
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
-
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
-)))
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
-\pgfsyssoftpath@smallbuffer@items=\count107
-\pgfsyssoftpath@bigbuffer@items=\count108
-)
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 ))
 (/usr/share/texmf/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
@@ -471,7 +426,89 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 )
+\AM@pagebox=\box28
+\AM@toc@title=\toks22
+\c@AM@survey=\count106
+\AM@templatesizebox=\box29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip49
+\f@ncyO@elh=\skip50
+\f@ncyO@erh=\skip51
+\f@ncyO@olh=\skip52
+\f@ncyO@orh=\skip53
+\f@ncyO@elf=\skip54
+\f@ncyO@erf=\skip55
+\f@ncyO@olf=\skip56
+\f@ncyO@orf=\skip57
+)
+(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks23
+)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box30
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+))
+Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
+
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks24
+\pgfkeys@temptoks=\toks25
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks26
+))
+\pgf@x=\dimen116
+\pgf@y=\dimen117
+\pgf@xa=\dimen118
+\pgf@ya=\dimen119
+\pgf@xb=\dimen120
+\pgf@yb=\dimen121
+\pgf@xc=\dimen122
+\pgf@yc=\dimen123
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count107
+\c@pgf@countb=\count108
+\c@pgf@countc=\count109
+\c@pgf@countd=\count110
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+)))
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+\pgfsyssoftpath@smallbuffer@items=\count111
+\pgfsyssoftpath@bigbuffer@items=\count112
+)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 
@@ -479,12 +516,12 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen122
-\pgfmath@count=\count109
-\pgfmath@box=\box29
-\pgfmath@toks=\toks26
-\pgfmath@stack@operand=\toks27
-\pgfmath@stack@operation=\toks28
+\pgfmath@dimen=\dimen124
+\pgfmath@count=\count113
+\pgfmath@box=\box31
+\pgfmath@toks=\toks27
+\pgfmath@stack@operand=\toks28
+\pgfmath@stack@operation=\toks29
 )
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
@@ -495,51 +532,51 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count110
+\c@pgfmathroundto@lastzeros=\count114
 ))
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
-\pgf@picminx=\dimen123
-\pgf@picmaxx=\dimen124
-\pgf@picminy=\dimen125
-\pgf@picmaxy=\dimen126
-\pgf@pathminx=\dimen127
-\pgf@pathmaxx=\dimen128
-\pgf@pathminy=\dimen129
-\pgf@pathmaxy=\dimen130
-\pgf@xx=\dimen131
-\pgf@xy=\dimen132
-\pgf@yx=\dimen133
-\pgf@yy=\dimen134
-\pgf@zx=\dimen135
-\pgf@zy=\dimen136
+\pgf@picminx=\dimen125
+\pgf@picmaxx=\dimen126
+\pgf@picminy=\dimen127
+\pgf@picmaxy=\dimen128
+\pgf@pathminx=\dimen129
+\pgf@pathmaxx=\dimen130
+\pgf@pathminy=\dimen131
+\pgf@pathmaxy=\dimen132
+\pgf@xx=\dimen133
+\pgf@xy=\dimen134
+\pgf@yx=\dimen135
+\pgf@yy=\dimen136
+\pgf@zx=\dimen137
+\pgf@zy=\dimen138
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
-\pgf@path@lastx=\dimen137
-\pgf@path@lasty=\dimen138
+\pgf@path@lastx=\dimen139
+\pgf@path@lasty=\dimen140
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
-\pgf@shorten@end@additional=\dimen139
-\pgf@shorten@start@additional=\dimen140
+\pgf@shorten@end@additional=\dimen141
+\pgf@shorten@start@additional=\dimen142
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
-\pgfpic=\box30
-\pgf@hbox=\box31
-\pgf@layerbox@main=\box32
-\pgf@picture@serial@count=\count111
+\pgfpic=\box32
+\pgf@hbox=\box33
+\pgf@layerbox@main=\box34
+\pgf@picture@serial@count=\count115
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
-\pgflinewidth=\dimen141
+\pgflinewidth=\dimen143
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
-\pgf@pt@x=\dimen142
-\pgf@pt@y=\dimen143
-\pgf@pt@temp=\dimen144
+\pgf@pt@x=\dimen144
+\pgf@pt@y=\dimen145
+\pgf@pt@temp=\dimen146
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -555,15 +592,15 @@ File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
-\pgf@max=\dimen145
-\pgf@sys@shading@range@num=\count112
+\pgf@max=\dimen147
+\pgf@sys@shading@range@num=\count116
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
 
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
-\pgfexternal@startupbox=\box33
+\pgfexternal@startupbox=\box35
 ))
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
@@ -576,15 +613,15 @@ File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
 )))
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
-\pgfnodeparttextbox=\box34
+\pgfnodeparttextbox=\box36
 )
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 )
 (/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen146
-\pgf@nodesepend=\dimen147
+\pgf@nodesepstart=\dimen148
+\pgf@nodesepend=\dimen149
 )
 (/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
@@ -594,96 +631,96 @@ Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
 (/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen148
-\pgffor@skip=\dimen149
-\pgffor@stack=\toks29
-\pgffor@toks=\toks30
+\pgffor@iter=\dimen150
+\pgffor@skip=\dimen151
+\pgffor@stack=\toks30
+\pgffor@toks=\toks31
 ))
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
-\pgf@plot@mark@count=\count113
-\pgfplotmarksize=\dimen150
+\pgf@plot@mark@count=\count117
+\pgfplotmarksize=\dimen152
 )
-\tikz@lastx=\dimen151
-\tikz@lasty=\dimen152
-\tikz@lastxsaved=\dimen153
-\tikz@lastysaved=\dimen154
-\tikzleveldistance=\dimen155
-\tikzsiblingdistance=\dimen156
-\tikz@figbox=\box35
-\tikz@tempbox=\box36
-\tikztreelevel=\count114
-\tikznumberofchildren=\count115
-\tikznumberofcurrentchild=\count116
-\tikz@fig@count=\count117
+\tikz@lastx=\dimen153
+\tikz@lasty=\dimen154
+\tikz@lastxsaved=\dimen155
+\tikz@lastysaved=\dimen156
+\tikzleveldistance=\dimen157
+\tikzsiblingdistance=\dimen158
+\tikz@figbox=\box37
+\tikz@tempbox=\box38
+\tikztreelevel=\count118
+\tikznumberofchildren=\count119
+\tikznumberofcurrentchild=\count120
+\tikz@fig@count=\count121
 
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
-\pgfmatrixcurrentrow=\count118
-\pgfmatrixcurrentcolumn=\count119
-\pgf@matrix@numberofcolumns=\count120
+\pgfmatrixcurrentrow=\count122
+\pgfmatrixcurrentcolumn=\count123
+\pgf@matrix@numberofcolumns=\count124
 )
-\tikz@expandcount=\count121
+\tikz@expandcount=\count125
 
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
 hs.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
 ))) (/usr/share/texlive/texmf-dist/tex/latex/epigraph/epigraph.sty
 Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
-\beforeepigraphskip=\skip55
-\afterepigraphskip=\skip56
-\epigraphwidth=\skip57
-\epigraphrule=\skip58
+\beforeepigraphskip=\skip58
+\afterepigraphskip=\skip59
+\epigraphwidth=\skip60
+\epigraphrule=\skip61
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count122
+\c@lips@count=\count126
 )
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 40.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 43.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 
 LaTeX Font Warning: Font shape `T1/ppl/b/' undefined
-(Font)              using `T1/ppl/b/n' instead on input line 40.
+(Font)              using `T1/ppl/b/n' instead on input line 43.
 
 (./MAY1607_final_report.aux)
 \openout1 = `MAY1607_final_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 110.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 113.
 
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count123
-\scratchdimen=\dimen157
-\scratchbox=\box37
-\nofMPsegments=\count124
-\nofMParguments=\count125
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count126
-\MPscratchDim=\dimen158
-\MPnumerator=\count127
-\makeMPintoPDFobject=\count128
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count127
+\scratchdimen=\dimen159
+\scratchbox=\box39
+\nofMPsegments=\count128
+\nofMParguments=\count129
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count130
+\MPscratchDim=\dimen160
+\MPnumerator=\count131
+\makeMPintoPDFobject=\count132
+\everyMPtoPDFconversion=\toks33
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -691,10 +728,6 @@ Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -732,40 +765,42 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+\AtBeginShipoutBox=\box40
+
 ABD: EveryShipout initializing macros
-Overfull \hbox (56.44473pt too wide) in paragraph at lines 114--115
+Overfull \hbox (56.44473pt too wide) in paragraph at lines 117--118
 \T1/ppl/b/n/36.135 Man-u-fac-tur-ing Mi-cro-scope 
  []
 
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 125.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 128.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 125
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 128
 .
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 125
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 128
 .
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 125.
+(Font)              <12> on input line 128.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 125.
+(Font)              <8> on input line 128.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 125.
-LaTeX Font Info:    Try loading font information for U+msa on input line 125.
+(Font)              <6> on input line 128.
+LaTeX Font Info:    Try loading font information for U+msa on input line 128.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 125.
+LaTeX Font Info:    Try loading font information for U+msb on input line 128.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -788,102 +823,301 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 \tf@lof=\write5
 \openout5 = `MAY1607_final_report.lof'.
 
- [2]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 174.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 177.
 
  (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 174.
- [3]
-<pics/seniorDesign_blockDiagram.png, id=22, 522.753pt x 178.0251pt>
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 177.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3] <pics/seniorDesign_blockDiagram.png, id=22, 522.753pt x 178.0251pt>
 File: pics/seniorDesign_blockDiagram.png Graphic file (type png)
 
 <use pics/seniorDesign_blockDiagram.png>
 Package pdftex.def Info: pics/seniorDesign_blockDiagram.png used on input line 
-195.
+198.
 (pdftex.def)             Requested size: 390.0pt x 132.81491pt.
- [4 <./pics/seniorDesign_blockDiagram.png>] [5] [6] [7] [8] [9]
-<pics/objective_lens_setup.jpg, id=47, 252.945pt x 91.6515pt>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4 <./pics/seniorDesign_blockDiagram.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5] <pics/powerReg.png, id=32, 1119.18124pt x 620.3175pt>
+File: pics/powerReg.png Graphic file (type png)
+
+<use pics/powerReg.png>
+Package pdftex.def Info: pics/powerReg.png used on input line 238.
+(pdftex.def)             Requested size: 390.0pt x 216.15839pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6 <./pics/powerReg.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7] <pics/LENSdRAWING.png, id=40, 476.982pt x 135.1449pt>
+File: pics/LENSdRAWING.png Graphic file (type png)
+
+<use pics/LENSdRAWING.png>
+Package pdftex.def Info: pics/LENSdRAWING.png used on input line 266.
+(pdftex.def)             Requested size: 390.0pt x 110.50195pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8 <./pics/LENSdRAWING.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10] <pics/objective_lens_setup.jpg, id=51, 252.945pt x 91.6515pt>
 File: pics/objective_lens_setup.jpg Graphic file (type jpg)
 
 <use pics/objective_lens_setup.jpg>
-Package pdftex.def Info: pics/objective_lens_setup.jpg used on input line 338.
+Package pdftex.def Info: pics/objective_lens_setup.jpg used on input line 346.
 (pdftex.def)             Requested size: 292.5pt x 105.98576pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10] <pics/objective_lens_output.jpg, id=51, 288.1164pt x 235.1184pt>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11] <pics/objective_lens_output.jpg, id=55, 288.1164pt x 235.1184pt>
 File: pics/objective_lens_output.jpg Graphic file (type jpg)
 
 <use pics/objective_lens_output.jpg>
-Package pdftex.def Info: pics/objective_lens_output.jpg used on input line 348.
+Package pdftex.def Info: pics/objective_lens_output.jpg used on input line 356.
 
 (pdftex.def)             Requested size: 292.5pt x 238.71259pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[11 <./pics/objective_lens_setup.jpg>]
-<pics/lens_array.jpg, id=55, 374.25536pt x 185.83714pt>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12 <./pics/objective_lens_setup.jpg>]
+<pics/lens_array.jpg, id=60, 374.25536pt x 185.83714pt>
 File: pics/lens_array.jpg Graphic file (type jpg)
 
 <use pics/lens_array.jpg>
-Package pdftex.def Info: pics/lens_array.jpg used on input line 367.
+Package pdftex.def Info: pics/lens_array.jpg used on input line 375.
 (pdftex.def)             Requested size: 292.5pt x 145.24161pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[12 <./pics/objective_lens_output.jpg>]
-<pics/lens_housing.jpg, id=60, 302.0886pt x 260.6538pt>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13 <./pics/objective_lens_output.jpg>]
+<pics/lens_housing.jpg, id=64, 302.0886pt x 260.6538pt>
 File: pics/lens_housing.jpg Graphic file (type jpg)
 
 <use pics/lens_housing.jpg>
-Package pdftex.def Info: pics/lens_housing.jpg used on input line 377.
+Package pdftex.def Info: pics/lens_housing.jpg used on input line 385.
 (pdftex.def)             Requested size: 191.10214pt x 164.89285pt.
 
-<pics/camera_port.jpg, id=61, 529.22719pt x 414.79968pt>
+<pics/camera_port.jpg, id=65, 529.22719pt x 414.79968pt>
 File: pics/camera_port.jpg Graphic file (type jpg)
 
 <use pics/camera_port.jpg>
-Package pdftex.def Info: pics/camera_port.jpg used on input line 384.
+Package pdftex.def Info: pics/camera_port.jpg used on input line 392.
 (pdftex.def)             Requested size: 191.10214pt x 149.78348pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13 <./pics/lens_array.jpg> <./pics/lens_housing.jpg>] [14 <./pics/camera_port.
-jpg>] (./MAY1607_final_report.aux)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14 <./pics/lens_array.jpg> <./pics/lens_housing.jpg>]
+<pics/HDMI2RGB.pdf, id=69, 1228.59pt x 794.97pt>
+File: pics/HDMI2RGB.pdf Graphic file (type pdf)
+ <use pics/HDMI2RGB.pdf>
+Package pdftex.def Info: pics/HDMI2RGB.pdf used on input line 403.
+(pdftex.def)             Requested size: 1228.587pt x 794.96806pt.
+File: pics/HDMI2RGB.pdf Graphic file (type pdf)
+
+<use pics/HDMI2RGB.pdf>
+Package pdftex.def Info: pics/HDMI2RGB.pdf used on input line 403.
+(pdftex.def)             Requested size: 1228.587pt x 794.96806pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15 <./pics/camera_port.jpg>]
+<pics/HDMI2RGB.pdf, id=75, page=1, 1228.59pt x 794.97pt>
+File: pics/HDMI2RGB.pdf Graphic file (type pdf)
+
+<use pics/HDMI2RGB.pdf, page 1>
+Package pdftex.def Info: pics/HDMI2RGB.pdf, page1 used on input line 403.
+(pdftex.def)             Requested size: 1228.587pt x 794.96806pt.
+File: pics/HDMI2RGB.pdf Graphic file (type pdf)
+ <use pics/HDMI2RGB.pdf, page 1>
+Package pdftex.def Info: pics/HDMI2RGB.pdf, page1 used on input line 403.
+(pdftex.def)             Requested size: 597.7776pt x 386.79727pt.
+File: pics/HDMI2RGB.pdf Graphic file (type pdf)
+
+<use pics/HDMI2RGB.pdf, page 1>
+Package pdftex.def Info: pics/HDMI2RGB.pdf, page1 used on input line 403.
+(pdftex.def)             Requested size: 597.7776pt x 386.79727pt.
+File: pics/HDMI2RGB.pdf Graphic file (type pdf)
+ <use pics/HDMI2RGB.pdf, page 1>
+Package pdftex.def Info: pics/HDMI2RGB.pdf, page1 used on input line 403.
+(pdftex.def)             Requested size: 597.7776pt x 386.79727pt.
+File: pics/HDMI2RGB.pdf Graphic file (type pdf)
+
+<use pics/HDMI2RGB.pdf, page 1>
+Package pdftex.def Info: pics/HDMI2RGB.pdf, page1 used on input line 403.
+(pdftex.def)             Requested size: 597.7776pt x 386.79727pt.
+ [16 <./pics/HDMI2RGB.pdf>]
+<pics/HDMI2RGB.pdf, id=84, page=2, 1228.59pt x 794.97pt>
+File: pics/HDMI2RGB.pdf Graphic file (type pdf)
+
+<use pics/HDMI2RGB.pdf, page 2>
+Package pdftex.def Info: pics/HDMI2RGB.pdf, page2 used on input line 403.
+(pdftex.def)             Requested size: 597.7776pt x 386.79727pt.
+File: pics/HDMI2RGB.pdf Graphic file (type pdf)
+ <use pics/HDMI2RGB.pdf, page 2>
+Package pdftex.def Info: pics/HDMI2RGB.pdf, page2 used on input line 403.
+(pdftex.def)             Requested size: 597.7776pt x 386.79727pt.
+File: pics/HDMI2RGB.pdf Graphic file (type pdf)
+
+<use pics/HDMI2RGB.pdf, page 2>
+Package pdftex.def Info: pics/HDMI2RGB.pdf, page2 used on input line 403.
+(pdftex.def)             Requested size: 597.7776pt x 386.79727pt.
+ [17 <./pics/HDMI2RGB.pdf>]
+<pics/HDMI2RGB.pdf, id=88, page=3, 1228.59pt x 794.97pt>
+File: pics/HDMI2RGB.pdf Graphic file (type pdf)
+
+<use pics/HDMI2RGB.pdf, page 3>
+Package pdftex.def Info: pics/HDMI2RGB.pdf, page3 used on input line 403.
+(pdftex.def)             Requested size: 597.7776pt x 386.79727pt.
+File: pics/HDMI2RGB.pdf Graphic file (type pdf)
+ <use pics/HDMI2RGB.pdf, page 3>
+Package pdftex.def Info: pics/HDMI2RGB.pdf, page3 used on input line 403.
+(pdftex.def)             Requested size: 597.7776pt x 386.79727pt.
+File: pics/HDMI2RGB.pdf Graphic file (type pdf)
+
+<use pics/HDMI2RGB.pdf, page 3>
+Package pdftex.def Info: pics/HDMI2RGB.pdf, page3 used on input line 403.
+(pdftex.def)             Requested size: 597.7776pt x 386.79727pt.
+ [18 <./pics/HDMI2RGB.pdf>]
+<pics/HDMI2RGB.pdf, id=93, page=4, 845.1575pt x 598.235pt>
+File: pics/HDMI2RGB.pdf Graphic file (type pdf)
+
+<use pics/HDMI2RGB.pdf, page 4>
+Package pdftex.def Info: pics/HDMI2RGB.pdf, page4 used on input line 403.
+(pdftex.def)             Requested size: 411.2163pt x 291.0747pt.
+File: pics/HDMI2RGB.pdf Graphic file (type pdf)
+ <use pics/HDMI2RGB.pdf, page 4>
+Package pdftex.def Info: pics/HDMI2RGB.pdf, page4 used on input line 403.
+(pdftex.def)             Requested size: 411.2163pt x 291.0747pt.
+File: pics/HDMI2RGB.pdf Graphic file (type pdf)
+
+<use pics/HDMI2RGB.pdf, page 4>
+Package pdftex.def Info: pics/HDMI2RGB.pdf, page4 used on input line 403.
+(pdftex.def)             Requested size: 411.2163pt x 291.0747pt.
+ [19 <./pics/HDMI2RGB.pdf>]
+<pics/HDMI2RGB.pdf, id=97, page=5, 1228.59pt x 794.97pt>
+File: pics/HDMI2RGB.pdf Graphic file (type pdf)
+
+<use pics/HDMI2RGB.pdf, page 5>
+Package pdftex.def Info: pics/HDMI2RGB.pdf, page5 used on input line 403.
+(pdftex.def)             Requested size: 597.7776pt x 386.79727pt.
+File: pics/HDMI2RGB.pdf Graphic file (type pdf)
+ <use pics/HDMI2RGB.pdf, page 5>
+Package pdftex.def Info: pics/HDMI2RGB.pdf, page5 used on input line 403.
+(pdftex.def)             Requested size: 597.7776pt x 386.79727pt.
+File: pics/HDMI2RGB.pdf Graphic file (type pdf)
+
+<use pics/HDMI2RGB.pdf, page 5>
+Package pdftex.def Info: pics/HDMI2RGB.pdf, page5 used on input line 403.
+(pdftex.def)             Requested size: 597.7776pt x 386.79727pt.
+ [20 <./pics/HDMI2RGB.pdf>]
+(./MAY1607_final_report.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 11552 strings out of 493304
- 208073 string characters out of 6139872
- 342347 words of memory out of 5000000
- 14723 multiletter control sequences out of 15000+600000
+ 12342 strings out of 493304
+ 220996 string characters out of 6139872
+ 359010 words of memory out of 5000000
+ 15487 multiletter control sequences out of 15000+600000
  32396 words of font info for 38 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 56i,12n,55p,967b,606s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/s
-hare/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/typ
-e1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></us
-r/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/urw/palatino/uplb8a.pfb>
-Output written on MAY1607_final_report.pdf (15 pages, 401865 bytes).
+ 56i,18n,55p,967b,612s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathsy.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
+}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/palatino/uplb8a.pfb>
+Output written on MAY1607_final_report.pdf (21 pages, 753045 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 122 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 
