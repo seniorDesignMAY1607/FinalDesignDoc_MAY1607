@@ -147,19 +147,15 @@
 %
 \titlepagedecoration
 \end{titlepage}
-
-
-
-
 \pagebreak
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 
 \tableofcontents
 
 \listoffigures
 
-\listoftables
+%\listoftables
 
 \pagebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -260,48 +256,28 @@ The DLPC3438 is the direct
 
 
 
+!!!!!!!!Need to finish the detailed design!!!!!!!
 
-
-
-%Double check on keeping here or in appendix -- The first design is
-%not mentioned before this section -- necessarily
-\section{Concept Comparison}
-
-Add content to figure out
 
 \section{Testing}
-Talk about the cuddly bricks
+\subsection{Objective Lens Integration}
+When this project began, testing consisted purely of attempting to send any sort of light through the microscope and receiving it at the eyepieces. The simplest method to test this was to implement the projector circuit below the objective lens. After this initial proof of concept was developed, the complexity of testing increased. The next task was to prove it was possible to project an image through the microscope for the user to see. The beam splitter is placed at a specific angle below the objective lens, and the projector was able to reflect an image up into the objective lens for the user to see. Unfortunately the light received from the projector was much too bright. In order to dim the light from the LED, more resistance was added to the projector circuit.
 
+After the brightness issue was resolved, it became apparent that much of the available workspace below the microscope was now being occupied by our setup under the microscope. To decrease the amount of workspace used by our project, we modified the angle between the beam splitter and the objective lens. To free up the workspace for the lab technicians we made incremental adjustments until we found the smallest working angle that still provided an acceptable quality image to the user. The image received had its own issues as well, so alternative ways to implement the system to improve the image quality were sought out. 
 
+\subsection{Camera Port Integration}
+Implementing the setup in the camera port relocated our circuitry so that it was completely out of the workspace and also allowed for the use of more precise optics that were already in place. With some slight modifications to these optics the image could be projected through the microscope to the eyepiece with little outside interaction. The resulting image was much clearer and legible. The next step was to use actual work instructions as the projected image to determine the legibility of text instructions. After this step in testing, it was determined that the text instructions could successfully be projected through the microscope and read by the microscope operator using our setup. 
 
-\section{Recommendations}
-
-Tell engineers to keep moving forward
-
--Start software for DLPC3438
-
--Redesign considerations
-
-	 --- Develop other interface for computer
-	 
-	 --- Develop better interface for projector to use
-	  zoom and other functionality
-	  
-	  
-	 
-
-- easier focusing
-- 
-
-
+Much of the remaining testing process for this concept dealt with the creation of custom hardware in order to hold and house our projector circuit in the most optimal way. The first iteration of this hardware simply attached our optical system to the microscope, and we quickly realized the hardware would also need to hold and support the rest of the circuit in addition to attaching the system to the microscope. The final version of the hardware would not only house the circuit and attach it to the microscope, but it was also allow for the optical system to be adjusted when necessary.
 
 \section{Conclusion}
 
+During these past two semesters of senior design we managed to successfully create a heads-up display and integrate it in a microscope. In order to get this product working successfully we
+used many skills from varying branches of science and engineering. We had to employ our knowledge of optics and lenses, 3D modeling, circuit design, and microcontrollers to create a working heads up display. Overall, this was a fascinating and worthwhile project where we managed to successfully complete our project using creative problem solving and teamwork.
 
 
 
-
-
+\pagebreak
 %Begin the appendix
 \begin{appendices}
 
@@ -359,10 +335,14 @@ In order to enact these changes we employed a few programs in conjunction with t
 \end{figure}
 
 \begin{figure}[h]
+	\centering
 	\includegraphics[width = 0.5\textwidth]{pics/camera_port.jpg}
-	\caption[Camera Port Model](Custom camera port design to support the projector and house the lens array)
+	\caption[Camera Port Model]{\centering Custom camera port design to support the projector and house the lens array}
 	\label{CPM}
 \end{figure}
+
+While we conducted tests for the physical parts just constructed, we also worked with the projection system to provide the best image through the optics housed in that hardware.  We made a small structural piece for the projector to provide support and attachment holes to lock it in place so that it remains aligned to the camera port. It was also necessary to design a custom PCB to remove all the unnecessary components not being used by the projector, which also helped to reduce the size and allow for easier integration on the camera port.  Part of this new PCB was a simple on/off switch which serves as the main control for our projection system and allows for easily displayed instructions once the system is attached.
+There are several benefits that this new design has over our initial concept, the first of which concerns the focus of the displayed image.  Previously, any time the operator adjusted the magnification of his view he would then have to refocus our image before being able to view his instructions.  With this new design, our projection enters into the eyepiece directly from the camera port, meaning it is independent to the focus of the microscope system.  Another advantage of our second concept is that all of our circuitry and optics are housed internally or held behind the microscope.  This keeps our attachment out of the workspace and enables for a much lower impact to the rest of the microscope system.
 
 
 \section{Other Considerations}

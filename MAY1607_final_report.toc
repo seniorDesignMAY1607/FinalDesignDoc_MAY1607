@@ -14,13 +14,13 @@
 \contentsline {subsection}{\numberline {6.2}DLP Controller Board}{6}
 \contentsline {subsection}{\numberline {6.3}DMD Controller - DLPC3438}{6}
 \contentsline {subsection}{\numberline {6.4}LED Controller - DLPA2005}{6}
-\contentsline {section}{\numberline {7}Concept Comparison}{6}
-\contentsline {section}{\numberline {8}Testing}{7}
-\contentsline {section}{\numberline {9}Recommendations}{7}
-\contentsline {section}{\numberline {10}Conclusion}{7}
-\contentsline {section}{Appendices}{7}
-\contentsline {section}{\numberline {A}Operation Manual}{7}
-\contentsline {section}{\numberline {B}Alternative Designs}{7}
-\contentsline {subsection}{\numberline {B.1}Objective Lens Integration}{7}
-\contentsline {subsection}{\numberline {B.2}Camera Port Attachment}{9}
-\contentsline {section}{\numberline {C}Other Considerations}{10}
+\contentsline {section}{\numberline {7}Testing}{7}
+\contentsline {subsection}{\numberline {7.1}Objective Lens Integration}{7}
+\contentsline {subsection}{\numberline {7.2}Camera Port Integration}{7}
+\contentsline {section}{\numberline {8}Conclusion}{8}
+\contentsline {section}{Appendices}{9}
+\contentsline {section}{\numberline {A}Operation Manual}{9}
+\contentsline {section}{\numberline {B}Alternative Designs}{9}
+\contentsline {subsection}{\numberline {B.1}Objective Lens Integration}{9}
+\contentsline {subsection}{\numberline {B.2}Camera Port Attachment}{10}
+\contentsline {section}{\numberline {C}Other Considerations}{13}
