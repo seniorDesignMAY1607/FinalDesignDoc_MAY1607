@@ -5,11 +5,18 @@
 \contentsline {section}{\numberline {5}Functional Overview}{4}
 \contentsline {subsection}{\numberline {5.1}Main Control Board}{4}
 \contentsline {subsection}{\numberline {5.2}DLP Controller}{4}
-\contentsline {subsection}{\numberline {5.3}Optical System}{4}
+\contentsline {subsection}{\numberline {5.3}Optical System}{5}
 \contentsline {section}{\numberline {6}Detailed Hardware Design}{5}
-\contentsline {section}{\numberline {7}Concept Comparison}{5}
-\contentsline {section}{\numberline {8}Testing}{5}
-\contentsline {section}{\numberline {9}Recommendations}{5}
-\contentsline {section}{\numberline {10}Conclusion}{5}
-\contentsline {section}{Appendices}{5}
-\contentsline {section}{\numberline {A}Hello Appendix}{5}
+\contentsline {subsection}{\numberline {6.1}Main Control Board}{5}
+\contentsline {subsubsection}{\numberline {6.1.1}HDMI Receiver - ADV7611}{5}
+\contentsline {subsubsection}{\numberline {6.1.2}Microcontroller - MSP430F2274}{6}
+\contentsline {subsubsection}{\numberline {6.1.3}Power}{6}
+\contentsline {subsection}{\numberline {6.2}DLP Controller Board}{6}
+\contentsline {section}{\numberline {7}Concept Comparison}{6}
+\contentsline {section}{\numberline {8}Testing}{6}
+\contentsline {section}{\numberline {9}Recommendations}{6}
+\contentsline {section}{\numberline {10}Conclusion}{7}
+\contentsline {section}{Appendices}{7}
+\contentsline {section}{\numberline {A}Operation Manual}{7}
+\contentsline {section}{\numberline {B}Alternative Designs}{7}
+\contentsline {section}{\numberline {C}Other Considerations}{7}
