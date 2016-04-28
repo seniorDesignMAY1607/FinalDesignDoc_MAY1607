@@ -26,7 +26,7 @@
 \contentsline {section}{\numberline {8}Conclusion}{9}
 \contentsline {section}{Appendices}{10}
 \contentsline {section}{\numberline {A}Operation Manual}{10}
-\contentsline {section}{\numberline {B}Alternative Designs}{10}
-\contentsline {subsection}{\numberline {B.1}Objective Lens Integration}{10}
+\contentsline {section}{\numberline {B}Alternative Designs}{11}
+\contentsline {subsection}{\numberline {B.1}Objective Lens Integration}{11}
 \contentsline {subsection}{\numberline {B.2}Camera Port Attachment}{12}
-\contentsline {section}{\numberline {C}Schemtic Files}{15}
+\contentsline {section}{Schematic Files}{15}
